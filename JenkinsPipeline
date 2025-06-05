@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Clone Code') {
             steps {
-                git 'https://github.com/your-username/java-tomcat-app.git'
+                git 'https://github.com/Vipulananda/Java-Tomcat.git'
             }
         }
 
