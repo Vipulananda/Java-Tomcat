@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "your-dockerhub-username/java-tomcat-app"
-        EC2_HOST = "ec2-user@your-ec2-public-ip"
+        DOCKER_IMAGE = "vipulv25/java-tomcat-app"
+        EC2_HOST = "ec2-user@54.242.53.3"
     }
 
     stages {
